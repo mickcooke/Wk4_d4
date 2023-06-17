@@ -8,10 +8,15 @@ In Terminal, navigate into the folder
 Then type into Terminal:
 
 dropdb zombies
+
 createdb zombies
+
 psql -d zombies -f db/zombies.sql
+
 psql -d zombies -f db/zombies.sql
+
 python3 console.py
+
 flask run
 
 Then command click the URL that appears in Terminal
